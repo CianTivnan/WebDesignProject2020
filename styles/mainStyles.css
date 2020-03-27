@@ -199,6 +199,10 @@ aside ul li a:hover {
     padding-left: 2em;
 }
 
+.articlebody a {
+    color: orangered;
+}
+
 .map {
     float: right;
     margin: 1em;
