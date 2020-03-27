@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<!--Author - Cian Tivnan S00198481
+	Start Date - 07/03/20	
+	Page Description - Web Design Project
+-->
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="Biking Website">
+	<meta name="keywords" content="Sales, Products, Home">
+	<meta name="author" content="Cian Tivnan">
+	<title>MTB Ireland</title>
+	<link rel="stylesheet" type="text/css" href="styles/mainStyles.css"/>
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+</head>
+
+<body>
+	
+	<header>
+		
+        <img style="float: left; height: 100px; width: 100px;" src="images/logo.png" alt ="logo">
+		<h1 style="float:left">MTB Ireland</h1>
+    </header>  
+        <a name="pagetop"></a>
+        <nav>
+		  <ul>
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="map.html">Trail Map</a> </li>
+                <li class = "active"> <a href="contact.html">Contact Us</a> </li>
+                <li> <a href="aboutus.html">About Us</a> </li>
+            </ul>
+        </nav>
+
+    
+    
+    
+    <main>
+        
+        <section>
+            <h3>Contact Us!</h3>
+            <table>
+
+                <thead><tr><th>Contact Type</th><th>Details</th></tr></thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Phone Number</td><td>086 77405221</td>
+                    </tr>
+                    <tr>
+                        <td>Email Address</td><td>queries@mail.mtbireland.ie</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td><td>Unit 23, TheOfficeBlock, Dublin 3</td>
+                    </tr>
+                </tbody>
+                
+            </table>
+        
+        </section>
+        
+        
+        
+        
+        <section class="form">
+            <h3>Please enter the following information:</h3>
+            
+            <form action="http://year1.ccpdev.me/FormTest.php" method="post">
+            
+                <label for="first_name">First Name:<span class="required">*</span></label>
+                <input type="text" name="first_name" id="first_name" autofocus required><br>
+            
+                <label for="last_name">Last Name:<span class="required">*</span></label>
+                <input type="text" name="last_name" id="last_name" required><br>
+                
+                <label for="email">Email Address:<span class="required">*</span></label>
+                <input type="email" name="email" id="email" required placeholder="johndoe@example.com"><br>
+                <br>
+                
+                <label for="reason">Reason For Contact :</label>
+                <input type="radio" name="reason" class="reason" value="addTrail"> Add Trail to Map
+                <input type="radio" name="reason" class="reason" value="advice"> Getting Started Advice
+                <input type="radio" id="reason" name="reason" class="reason" value="other" checked> Other <br>
+                <br>
+                <label for="internet">Heard of us:</label>
+                <fieldset>
+                <input type="checkbox" id="internet" name="internet" value="internet" checked> Internet <br>
+                <input type="checkbox" class="hear" name="friend" value="friend" > Friend <br>
+                <input type="checkbox" class="hear" name="Other" value="Other" > Other <br>
+                </fieldset>
+                
+                <label for="message">Query:<span class="required">*</span></label>
+                
+                <textarea cols="40" rows="6" id="message" name="message" placeholder="Your message must be less than 500 characters" data-maxlength="500"></textarea> <br>
+                
+                <input type="submit" name="submit" id="button" value="submit">
+                <input type="reset" name="reset" id="reset">
+            </form>
+            <p style="margin-left: 138px"><span class="required">*</span><em> indicates a required field</em></p>
+        </section>
+        
+        
+        
+        
+        
+        
+    
+	</main>
+    
+    <aside>
+        <section class="asideNav">
+            <h2> Navigation </h2>
+                <ul>
+                <li> <a href="home.html">Home</a></li>
+                <li> <a href="map.html">Trail Map</a></li>
+                <li> <a href="contact.html">Contact Us</a></li>
+                <li> <a href="aboutus.html">About Us</a></li>
+                </ul>
+        </section>
+        <a class="weatherwidget-io" href="https://forecast7.com/en/53d35n6d26/dublin/" data-label_1="Ireland" data-label_2="Weather" data-theme="original" data-basecolor="forestgreen" >Ireland Weather</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+            </script>
+        
+        
+        
+        
+
+        </aside>
+    
+	<footer>
+        <a href="#top">Go to top of page</a>
+        <nav>
+        <ul>
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="map.html">Trail Map</a> </li>
+                <li class = "active"> <a href="contact.html">Contact Us</a> </li>
+                <li> <a href="aboutus.html">About Us</a> </li>
+        </ul>
+        </nav>
+        
+        <p>Copyright 2020 Cian Tivnan</p>
+	</footer>
+
+</body>
+</html>
