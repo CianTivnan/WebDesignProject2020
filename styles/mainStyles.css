@@ -218,7 +218,7 @@ aside ul li a:hover {
     float: left;
     margin: 1em;
     display: inline;
-    width: 25%;
+    width: 40%;
     height: auto;
 }
 
@@ -286,6 +286,10 @@ table
     border-collapse: collapse;
     font-size: 20px;
     margin: 20px;
+}
+
+ol {
+    list-style-type: square;
 }
 
 th
